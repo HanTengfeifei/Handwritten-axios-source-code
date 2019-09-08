@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/hantengfei/.nvm/versions/node/v12.10.0/bin/node /Users/hantengfei/.nvm/versions/node/v12.10.0/bin/yarn add ,
+
+PATH: 
+  /Users/hantengfei/.nvm/versions/node/v12.10.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/hantengfei/Desktop/Handwritten-axios-source-code/client/node_modules/.bin:/Users/hantengfei/.nvm/versions/node/v12.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hantengfei/.yarn/bin:
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/,: Not found
+      at Request.params.callback [as _callback] (/Users/hantengfei/.nvm/versions/node/v12.10.0/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/Users/hantengfei/.nvm/versions/node/v12.10.0/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:209:13)
+      at Request.<anonymous> (/Users/hantengfei/.nvm/versions/node/v12.10.0/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:209:13)
+      at IncomingMessage.<anonymous> (/Users/hantengfei/.nvm/versions/node/v12.10.0/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:298:28)
+      at IncomingMessage.emit (events.js:214:15)
+      at endReadableNT (_stream_readable.js:1178:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "parcel  ./kaxios.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.19.0",
+      "parcel": "^1.12.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
